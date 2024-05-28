@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestSetup {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
